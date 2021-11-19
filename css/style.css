@@ -48,6 +48,14 @@ body {
   font-size: 1rem;
 }
 
+.quiz-container .quiz-header ul li input {
+  cursor: pointer;
+}
+
+.quiz-container .quiz-header ul li label {
+  cursor: pointer;
+}
+
 .quiz-container button {
   background-color: #8e44ad;
   border: none;
