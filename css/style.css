@@ -1,0 +1,66 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #eeaeca;
+  background: linear-gradient(160deg, #eeaeca 0%, #94bbe9 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.quiz-container {
+  background-color: #e2f1ff;
+  width: 600px;
+  max-width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 10px rgba(73, 138, 155, 0.2);
+          box-shadow: 0 0 10px rgba(73, 138, 155, 0.2);
+  overflow: hidden;
+}
+
+.quiz-container .quiz-header {
+  padding: 3rem;
+}
+
+.quiz-container .quiz-header h2 {
+  margin: 0;
+}
+
+.quiz-container .quiz-header ul {
+  list-style: none;
+  padding: 0;
+}
+
+.quiz-container .quiz-header ul li {
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+
+.quiz-container button {
+  background-color: #8e44ad;
+  border: none;
+  color: white;
+  display: block;
+  width: 100%;
+  font-size: 1.2rem;
+  font-family: inherit;
+  padding: 10px 0;
+}
+
+.quiz-container button:hover {
+  background-color: #682c81;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
