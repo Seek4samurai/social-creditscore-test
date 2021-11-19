@@ -35,6 +35,7 @@ body {
 }
 
 .quiz-container .quiz-header h2 {
+  text-align: center;
   margin: 0;
 }
 
@@ -70,5 +71,9 @@ body {
 .quiz-container button:hover {
   background-color: #682c81;
   cursor: pointer;
+}
+
+h2 {
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

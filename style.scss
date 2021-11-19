@@ -23,6 +23,7 @@ body {
   .quiz-header {
     padding: 3rem;
     h2 {
+      text-align: center;
       margin: 0;
     }
     ul {
@@ -54,4 +55,8 @@ body {
     background-color: #682c81;
     cursor: pointer;
   }
+}
+
+h2 {
+  text-align: center;
 }
